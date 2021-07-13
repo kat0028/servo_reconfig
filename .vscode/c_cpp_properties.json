@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/kyle/soft_sys/jet_racer_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/kyle/soft_sys/jet_racer_ws/src/curvature_reconfig/include/**",
+        "/home/kyle/soft_sys/jet_racer_ws/src/lateral_controller/include/**",
+        "/home/kyle/soft_sys/jet_racer_ws/src/servo_array_driver/include/**",
+        "/home/kyle/soft_sys/jet_racer_ws/src/servo_reconfig/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
