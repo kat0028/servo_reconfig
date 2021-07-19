@@ -1,0 +1,5 @@
+<launch>
+	<node name = "servo_reconfig_node" pkg = "servo_reconfig" type = "servo_reconfig_node" output = "screen"/>
+	<node name = "servo_rqt_reconfigure_node" pkg = "rqt_reconfigure" type ="rqt_reconfigure_node" output = "screen"/>
+	<node name="controlboard" pkg="i2cpwm_board" type="i2cpwm_board"/>
+</launch>
